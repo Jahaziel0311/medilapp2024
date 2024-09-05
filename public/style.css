@@ -1,0 +1,223 @@
+.card-body {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenido{
+    font-size: large !important;
+
+}
+
+
+
+h1{
+    font-size: xx-large;
+   
+}
+h4{
+    font-size: large;
+   
+}
+h5{
+    font-size: medium;
+   
+}
+
+.bg-valmar{
+    background: #2cb8c5;
+}
+
+
+::placeholder {
+    
+    font-size:large;
+  }
+#accordionSidebar {
+    transition: all .5s;
+    background: #2cb8c5;
+}
+
+.collapse-item, .nav-link {
+    transition: ease-in-out .3s;
+}
+
+    .collapse-item:hover {
+        background: rgba(65, 103, 213, 0.5) !important;
+        transform: scale(1.05);
+    }
+
+#medicoa:hover {
+    background: rgba(156, 172, 219, 0.5) !important;
+    transform: scale(1.02);
+}
+
+#opcionesmedico {
+    transition: ease-in-out .5s;
+}
+/* pantalla crear medico*/
+#cardcrear {
+    margin: auto;
+    padding-left: -1rem;
+    padding-right: -1rem;
+}
+
+#titulocrearmedico h1 {
+    display: block;
+    margin-left: 40%;
+}
+
+@media(max-width:1250px) {
+    #titulocrearmedico h1 {
+        margin-left: 11%;
+    }
+}
+
+#botoncrear {
+    display: block;
+    width: 100%;
+}
+
+.blob {
+    background: black;
+    border-radius: 10%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    margin-left: 320px;
+    width: 29%;
+    transform: scale(1);
+    animation: pulse-black 3s infinite;
+}
+
+    .blob.red {
+        background: rgba(255, 82, 82, 1);
+        box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+        animation: pulse-red 2s infinite;
+    }
+
+@keyframes pulse-red {
+    0% {
+        transform: scale(0.999);
+        box-shadow: 0 0 0 0 rgba(82, 114, 255, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(82, 114, 255, 0);
+    }
+
+    100% {
+        transform: scale(0.999);
+        box-shadow: 0 0 0 0 rgba(82, 114, 255, 0);
+    }
+}
+
+@media(max-width:1250px) {
+    .blob {
+        width: 180px;
+        margin-left: 90px;
+    }
+}
+/* fin pantalla crear medico*/
+/* pantalla mostrar iconos*/
+#iconoBoton {
+    transition: all .2s;
+    font-size: 0.9em;
+}
+
+    #iconoBoton:hover {
+        transform: scale(1.25);
+    }
+
+#iconoBotonW {
+    transition: all .2s;
+    font-size: 0.9em;
+    color: black;
+}
+
+    #iconoBotonW:hover {
+        transform: scale(1.25);
+    }
+
+#iconoAmarillo {
+    transition: all .2s;
+    font-size: 1.5em;
+}
+.btnCrear{
+    font-size: medium !important;
+    
+}
+.btnIcono{
+    height: 10% !important;
+}
+#iconoBoton:hover {
+    transform: scale(1.25);
+}
+
+#iconoAmarillo {
+    transition: all .2s;
+    font-size: 1.5em;
+}
+
+    #iconoAmarillo:hover {
+        transform: scale(1.25);
+    }
+
+#eliminarenmostrar {
+    transition: all .2s;
+    font-size: 1.5em;
+}
+
+    #eliminarenmostrar:hover {
+        transform: scale(1.25);
+    }
+
+#insertarenmostrar {
+    transition: all .2s;
+    font-size: 1.5em;
+}
+
+    #insertarenmostrar:hover {
+        transform: scale(1.25);
+    }
+
+#iconosmostrar > div {
+    display: inline-block;
+    -webkit-box-shadow: 10px 11px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 5px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 5px -10px rgba(0,0,0,0.75);
+}
+
+.lista .caracteristica.drag {
+    background: black;
+    opacity: 0;
+}
+ 
+.nav-link{
+    
+    
+    width:95% !important;
+   
+    
+}
+
+.sidebar{
+    width: 12% !important;
+    font-size: 80% !important;
+    
+}
+
+
+
+.subMenuLateral{
+    font-size: 80% !important;
+    
+    margin-left: -3rem !important;
+    padding-left: 1rem !important;
+}
+.menuLateral{
+    font-size: 95% !important;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+/*Prueba a ver si es este public*/
+
+
+/*prijsdaijsdofjiosdjf*/
